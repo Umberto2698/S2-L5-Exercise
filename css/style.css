@@ -2,11 +2,12 @@ main {
   padding-inline: 20px;
   background-color: #e9edee;
   padding-top: 30px;
+  padding-bottom: 10px;
 }
 .logo {
   background-color: #222f3f;
   text-align: start;
-  padding-block: 5px;
+  padding-block: 10px;
   padding-left: 20px;
 }
 .logo img {
@@ -39,11 +40,9 @@ main > div:first-of-type {
 main > div:nth-child(2) {
   background-image: url(../assets/bg-image.png);
   background-repeat: repeat;
-  background-position-x: left;
-  background-position-y: top;
   color: white;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 75px;
   padding-bottom: 50px;
 }
 h2 {
@@ -53,4 +52,84 @@ h2 {
 }
 h4 {
   font-weight: bold;
+}
+.perfectGift {
+  background-color: white;
+  padding: 20px;
+}
+.perfectGift > div:first-child {
+  margin-bottom: 20px;
+}
+h5 {
+  color: black;
+  display: inline;
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+p {
+  display: inline;
+}
+p > a {
+  color: #407c86;
+  text-decoration: none;
+  font-weight: bold;
+}
+.perfectGift > div:nth-child(2) {
+  background-image: url(../assets/img_1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  height: 350px;
+  width: 310px;
+  box-shadow: 5px 5px 10px #dbdfe2;
+  display: inline-block;
+  margin-right: 20px;
+}
+.perfectGift > div:nth-child(3) {
+  background-image: url(../assets/img_2.jpg);
+  background-size: cover;
+  background-position: right;
+  border-radius: 20px;
+  height: 350px;
+  width: 310px;
+  box-shadow: 5px 5px 10px #dbdfe2;
+  display: inline-block;
+  margin-right: 20px;
+}
+.perfectGift > div:nth-child(4) {
+  background-image: url(../assets/img_3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  height: 350px;
+  width: 310px;
+  box-shadow: 5px 5px 10px #dbdfe2;
+  display: inline-block;
+  margin-right: 20px;
+}
+.perfectGift > div:nth-child(5) {
+  background-image: url(../assets/img_4.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  height: 350px;
+  width: 310px;
+  box-shadow: 5px 5px 10px #dbdfe2;
+  display: inline-block;
+}
+main > div:nth-child(4) {
+  background-image: url(../assets/img_9.png);
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 5px;
+}
+.gift {
+  text-align: center;
+}
+main > div:nth-child(6) {
+  background-image: url(../assets/img_10.png);
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 5px;
 }
