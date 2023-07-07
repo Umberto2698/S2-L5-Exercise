@@ -1,9 +1,29 @@
+/*Generale*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+main > div {
+  margin-bottom: 30px;
+}
+a:hover {
+  color: palevioletred;
+}
+.footer > div:hover {
+  background-color: #485769;
+}
+li:hover {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
 main {
   padding-inline: 20px;
   background-color: #e9edee;
   padding-top: 30px;
   padding-bottom: 10px;
 }
+/*Header*/
 .logo {
   background-color: #222f3f;
   text-align: start;
@@ -17,7 +37,7 @@ main {
 .menù {
   background-color: #364759;
   padding-left: 20px;
-  padding-block: 5px;
+  padding-block: 10px;
   color: white;
 }
 ul {
@@ -27,15 +47,18 @@ li {
   display: inline;
   cursor: pointer;
   margin-right: 15px;
+  padding-inline: 10px;
+  padding-block: 5px;
 }
-main > div {
-  margin-bottom: 30px;
-}
+/*Main*/
 main > div:first-of-type {
   background-color: #f56600;
   color: white;
   text-align: center;
-  padding-block: 7px;
+  padding-block: 10px;
+}
+main > div:first-of-type > p {
+  cursor: pointer;
 }
 main > div:nth-child(2) {
   background-image: url(../assets/bg-image.png);
@@ -85,6 +108,7 @@ p > a {
   box-shadow: 5px 5px 10px #dbdfe2;
   display: inline-block;
   margin-right: 20px;
+  cursor: pointer;
 }
 .perfectGift > div:nth-child(3) {
   background-image: url(../assets/img_2.jpg);
@@ -96,6 +120,7 @@ p > a {
   box-shadow: 5px 5px 10px #dbdfe2;
   display: inline-block;
   margin-right: 20px;
+  cursor: pointer;
 }
 .perfectGift > div:nth-child(4) {
   background-image: url(../assets/img_3.jpg);
@@ -107,6 +132,7 @@ p > a {
   box-shadow: 5px 5px 10px #dbdfe2;
   display: inline-block;
   margin-right: 20px;
+  cursor: pointer;
 }
 .perfectGift > div:nth-child(5) {
   background-image: url(../assets/img_4.jpg);
@@ -117,12 +143,14 @@ p > a {
   width: 310px;
   box-shadow: 5px 5px 10px #dbdfe2;
   display: inline-block;
+  cursor: pointer;
 }
 main > div:nth-child(4) {
   background-image: url(../assets/img_9.png);
   background-size: cover;
   height: 400px;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 .gift {
   text-align: center;
@@ -132,8 +160,10 @@ main > div:nth-child(6) {
   background-size: cover;
   height: 400px;
   margin-bottom: 5px;
+  cursor: pointer;
 }
-footer > div:first-child {
+/*Footer*/
+footer > a > div {
   background-color: #364759;
   text-align: center;
   height: 50px;
@@ -142,7 +172,7 @@ footer > div:first-child {
   padding-block: 15px;
   display: block;
 }
-.backtotop > a {
+footer > .footer p {
   color: white;
   text-decoration: solid;
   text-decoration-line: underline;
@@ -155,4 +185,5 @@ footer img {
   width: 150px;
   padding-top: 50px;
   padding-bottom: 60px;
+  cursor: pointer;
 }
