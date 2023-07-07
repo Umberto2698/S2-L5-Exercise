@@ -133,3 +133,26 @@ main > div:nth-child(6) {
   height: 400px;
   margin-bottom: 5px;
 }
+footer > div:first-child {
+  background-color: #364759;
+  text-align: center;
+  height: 50px;
+}
+.backtotop {
+  padding-block: 15px;
+  display: block;
+}
+.backtotop > a {
+  color: white;
+  text-decoration: solid;
+  text-decoration-line: underline;
+}
+footer > div:nth-child(2) {
+  background-color: #222f3f;
+  text-align: center;
+}
+footer img {
+  width: 150px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
