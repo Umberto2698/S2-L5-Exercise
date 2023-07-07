@@ -1,5 +1,7 @@
 main {
   padding-inline: 20px;
+  background-color: #e9edee;
+  padding-top: 30px;
 }
 .logo {
   background-color: #222f3f;
@@ -8,6 +10,7 @@ main {
   padding-left: 20px;
 }
 .logo img {
+  cursor: pointer;
   width: 100px;
 }
 .menù {
@@ -23,4 +26,31 @@ li {
   display: inline;
   cursor: pointer;
   margin-right: 15px;
+}
+main > div {
+  margin-bottom: 30px;
+}
+main > div:first-of-type {
+  background-color: #f56600;
+  color: white;
+  text-align: center;
+  padding-block: 7px;
+}
+main > div:nth-child(2) {
+  background-image: url(../assets/bg-image.png);
+  background-repeat: repeat;
+  background-position-x: left;
+  background-position-y: top;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+h4 {
+  font-weight: bold;
 }
